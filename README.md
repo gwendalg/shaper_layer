@@ -1,4 +1,3 @@
-# SVG Depth Processor for CNC
 
 This script processes SVG files exported from tools like Fusion 360 with the Shaper Origin Add-In to generate layered cut files based on depth.
 
@@ -13,11 +12,11 @@ Shapes are filtered, attributes cleaned, and paths merged.
 
 ### 3. Output SVGs
 One file per depth, containing all shapes intended to be cut at or below that level:
-- ~1in depth: ![1in](./examples/png/systainer_plunge_bottom_bottom_2-5225cm.png)
-- 22mm depth: ![22mm](./examples/png/systainer_plunge_bottom_bottom_2-2cm.png)
-- 12mm depth: ![12mm](./examples/png/systainer_plunge_bottom_bottom_1-2cm.png)
-- 6mm depth: ![6mm](./examples/png/systainer_plunge_bottom_bottom_0-6cm.png)
 - 4mm depth: ![4mm](./examples/png/systainer_plunge_bottom_bottom_0-4cm.png)
+- 6mm depth: ![6mm](./examples/png/systainer_plunge_bottom_bottom_0-6cm.png)
+- 12mm depth: ![12mm](./examples/png/systainer_plunge_bottom_bottom_1-2cm.png)
+- 22mm depth: ![22mm](./examples/png/systainer_plunge_bottom_bottom_2-2cm.png)
+- ~1in depth: ![1in](./examples/png/systainer_plunge_bottom_bottom_2-5225cm.png)
 
 ## Requirements
 
