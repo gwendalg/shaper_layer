@@ -49,11 +49,5 @@ Run the script by passing the path to your source SVG filem it will generate the
 python3 process_svg.py my_layout.svg
 ```
 
-### Example
-If `my_layout.svg` has shapes at `2mm`, `4mm`, and `6mm`:
-- `my_layout_2mm.svg`: Contains all shapes (2mm, 4mm, 6mm), all set to 2mm depth.
-- `my_layout_4mm.svg`: Contains 4mm and 6mm shapes, all set to 4mm depth.
-- `my_layout_6mm.svg`: Contains only 6mm shapes, set to 6mm depth.
-
 ## License
 MIT
