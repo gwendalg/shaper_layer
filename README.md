@@ -20,6 +20,7 @@ One file per depth, containing all shapes intended to be cut at or below that le
 
 ## Requirements
 
+- inkscape
 - Python 3
 - `lxml` library
 
