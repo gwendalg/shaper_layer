@@ -36,6 +36,3 @@ Run the script by passing the path to your source SVG filem it will generate the
 ```bash
 python3 process_svg.py my_layout.svg
 ```
-
-## License
-MIT
